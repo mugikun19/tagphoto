@@ -85,7 +85,7 @@ uploaded_file = st.file_uploader("1. Pilih Foto", type=["jpg", "jpeg", "png"])
 
 detail_lokasi = st.text_area(
     "2. Detail Lokasi (Copy-Paste dari Google Maps/Titik Koordinat)", 
-    placeholder="0.92584614S 100.36096574E\nNo. 1 Jalan Khatib Sulaiman\nFlamboyan Baru\nKecamatan Padang Barat\nKota Padang\nSumatera Barat",
+    placeholder="0.92584614S 100.36096574E\nCopy Paste\nDisini",
     height=150
 )
 
