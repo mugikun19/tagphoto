@@ -101,7 +101,7 @@ if uploaded_file is not None:
             simpan_data(uploaded_file.name, waktu_input, link_gmaps)
             
             st.success("✅ Foto berhasil diproses dan data log disimpan!")
-            st.image(img_hasil, caption="Pratinjau Hasil Foto", use_column_width=True)
+            st.image(img_hasil, caption="Pratinjau Hasil Foto", use_container_width=True)
             
             # Konversi gambar ke format yang bisa diunduh
             buf = io.BytesIO()
