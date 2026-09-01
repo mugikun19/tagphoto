@@ -85,7 +85,7 @@ uploaded_file = st.file_uploader("1. Pilih Foto", type=["jpg", "jpeg", "png"])
 
 detail_lokasi = st.text_area(
     "2. Detail Lokasi (Copy-Paste dari Google Maps/Titik Koordinat)", 
-    placeholder="0.92584614S 100.36096574E\nCopy Paste\nDisini",
+    placeholder="Copy Paste disini",
     height=150
 )
 
