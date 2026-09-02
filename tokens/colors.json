@@ -1,0 +1,98 @@
+{
+  "colors": {
+    "primary": {
+      "50": "#eff6ff",
+      "100": "#dbeafe",
+      "200": "#bfdbfe",
+      "300": "#93c5fd",
+      "400": "#60a5fa",
+      "500": "#3b82f6",
+      "600": "#2563eb",
+      "700": "#1d4ed8",
+      "800": "#1e40af",
+      "900": "#1e3a8a"
+    },
+    "secondary": {
+      "400": "#94a3b8",
+      "500": "#78716c",
+      "600": "#64748b",
+      "700": "#475569"
+    },
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "danger": "#ef4444",
+    "text": {
+      "primary": "#0f172a",
+      "secondary": "#64748b",
+      "muted": "#94a3b8"
+    },
+    "background": {
+      "light": "#f8fafc",
+      "lighter": "#f1f5f9",
+      "card": "#ffffff"
+    },
+    "border": {
+      "light": "#e2e8f0",
+      "strong": "#cbd5e1",
+      "stronger": "#94a3b8"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
+      "mono": "'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace"
+    },
+    "fontSize": {
+      "h1": "2.5rem",
+      "h2": "1.3rem",
+      "h3": "1.1rem",
+      "body": "0.95rem",
+      "small": "0.85rem",
+      "caption": "0.75rem"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.6
+    }
+  },
+  "spacing": {
+    "0": "0px",
+    "1": "8px",
+    "2": "16px",
+    "3": "24px",
+    "4": "32px",
+    "5": "40px",
+    "6": "48px"
+  },
+  "borderRadius": {
+    "small": "4px",
+    "medium": "8px",
+    "large": "12px",
+    "round": "50%"
+  },
+  "shadows": {
+    "sm": "0 1px 3px rgba(0, 0, 0, 0.08)",
+    "md": "0 4px 12px rgba(0, 0, 0, 0.1)",
+    "lg": "0 8px 24px rgba(0, 0, 0, 0.12)",
+    "focus": "0 0 0 3px rgba(37, 99, 235, 0.1)"
+  },
+  "transitions": {
+    "fast": "0.15s",
+    "standard": "0.2s",
+    "smooth": "0.3s",
+    "slow": "0.5s"
+  },
+  "easing": {
+    "easeOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "easeLinear": "cubic-bezier(0, 0, 1, 1)"
+  }
+}
