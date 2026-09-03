@@ -20,8 +20,8 @@ def load_design_tokens():
     Supports both local dev and production environments.
     """
     token_paths = [
-        'design-system/tokens/colors.json',  # Local dev
-        '../design-system/tokens/colors.json',  # Subdirectory
+        '../tokens/colors.json',  # Local dev
+        '../tokens/colors.json',  # Subdirectory
         './tokens/colors.json',  # Alternative
     ]
     
